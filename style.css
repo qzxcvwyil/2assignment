@@ -211,10 +211,12 @@ img{
     text-align: center;
     margin-bottom: 25px;
 }
-.portfolio-grid{
+.portfolio-grid {
     display: grid;
     grid-template-columns: 1fr 300px;
     gap: 25px;
+    align-items: stretch; 
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 .projects{
     display: flex;
@@ -257,7 +259,8 @@ img{
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-    height: fit-content;
+    height: 100%;
+    box-sizing: border-box;
 }
 .portfolio-sidebar ul{
     margin-top: 10px;
